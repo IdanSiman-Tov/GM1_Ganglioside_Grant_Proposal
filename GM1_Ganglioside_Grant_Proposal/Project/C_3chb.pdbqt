@@ -1,0 +1,108 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C3_3  and  O3_8 
+REMARK    2  A    between atoms: C4_4  and  O4_9 
+REMARK    3  A    between atoms: C5_5  and  C6_6 
+REMARK    4  A    between atoms: O3_8  and  C2_38 
+REMARK    5  A    between atoms: O4_9  and  C1_12 
+REMARK    6  A    between atoms: C2_13  and  N2_20 
+REMARK    7  A    between atoms: C3_14  and  O3_21 
+REMARK    8  A    between atoms: C5_16  and  C6_17 
+REMARK       I    between atoms: C7_18  and  N2_20 
+REMARK    9  A    between atoms: O3_21  and  C1_26 
+REMARK   10  A    between atoms: C5_30  and  C6_31 
+REMARK   11  A    between atoms: C1_37  and  C2_38 
+REMARK   12  A    between atoms: C5_41  and  N5_48 
+REMARK   13  A    between atoms: C6_42  and  C7_43 
+REMARK   14  A    between atoms: C7_43  and  C8_44 
+REMARK   15  A    between atoms: C8_44  and  C9_45 
+REMARK       I    between atoms: C10_46  and  N5_48 
+ROOT
+HETATM    1  C1  GAL C   1      10.719  69.490   6.318  0.50 31.77     0.178 C 
+HETATM    2  C2  GAL C   1       9.846  69.421   7.556  0.50 31.15     0.211 C 
+HETATM    3  C3  GAL C   1       9.900  68.045   8.222  0.50 28.21     0.181 C 
+HETATM    4  C4  GAL C   1       9.588  66.967   7.189  0.50 27.04     0.177 C 
+HETATM    5  C5  GAL C   1      10.516  67.080   5.986  0.50 27.54     0.178 C 
+HETATM    6  O2  GAL C   1      10.234  70.404   8.500  0.50 33.53    -0.218 OA
+HETATM    7  O5  GAL C   1      10.492  68.395   5.445  0.50 31.32    -0.349 OA
+ENDROOT
+BRANCH   3   8
+HETATM    8  O3  GAL C   1       8.990  68.054   9.300  0.50 27.69    -0.324 OA
+BRANCH   8   9
+HETATM    9  C2  SIA C   4       9.288  67.398  10.526  0.50 28.46     0.271 C 
+HETATM   10  C3  SIA C   4      10.407  68.101  11.254  0.50 27.81     0.103 C 
+HETATM   11  C4  SIA C   4      10.987  67.324  12.407  0.50 26.33     0.182 C 
+HETATM   12  C5  SIA C   4      11.132  65.824  12.205  0.50 25.92     0.166 C 
+HETATM   13  O4  SIA C   4      12.198  67.884  12.860  0.50 27.44    -0.221 OA
+HETATM   14  C6  SIA C   4       9.928  65.258  11.468  0.50 24.60     0.176 C 
+HETATM   15  O6  SIA C   4       9.593  66.019  10.319  0.50 29.11    -0.325 OA
+BRANCH   9  16
+HETATM   16  C1  SIA C   4       8.006  67.465  11.338  0.50 24.27     0.240 C 
+HETATM   17  O1A SIA C   4       7.042  66.766  10.937  0.50 28.17    -0.644 OA
+HETATM   18  O1B SIA C   4       7.920  68.193  12.335  0.50 21.53    -0.644 OA
+ENDBRANCH   9  16
+BRANCH  12  19
+HETATM   19  N5  SIA C   4      11.257  65.216  13.529  0.50 25.74    -0.235 NA
+HETATM   20  C10 SIA C   4      12.108  64.225  13.780  0.50 23.32     0.252 C 
+HETATM   21  O10 SIA C   4      12.818  63.821  12.832  0.50 26.30    -0.271 OA
+HETATM   22  C11 SIA C   4      12.052  63.783  15.248  0.50 20.27     0.100 C 
+ENDBRANCH  12  19
+BRANCH  14  23
+HETATM   23  C7  SIA C   4      10.203  63.812  11.022  0.50 24.96     0.214 C 
+HETATM   24  O7  SIA C   4      11.481  63.776  10.391  0.50 23.41    -0.218 OA
+BRANCH  23  25
+HETATM   25  C8  SIA C   4       9.088  63.400  10.064  0.50 24.91     0.218 C 
+HETATM   26  O8  SIA C   4       7.815  63.713  10.609  0.50 25.01    -0.218 OA
+BRANCH  25  27
+HETATM   27  C9  SIA C   4       9.154  61.912   9.762  0.50 23.13     0.218 C 
+HETATM   28  O9  SIA C   4       8.153  61.517   8.852  0.50 25.78    -0.218 OA
+ENDBRANCH  25  27
+ENDBRANCH  23  25
+ENDBRANCH  14  23
+ENDBRANCH   8   9
+ENDBRANCH   3   8
+BRANCH   5  29
+HETATM   29  C6  GAL C   1      10.088  66.119   4.874  0.50 27.50     0.214 C 
+HETATM   30  O6  GAL C   1      11.090  65.978   3.888  0.50 28.29    -0.218 OA
+ENDBRANCH   5  29
+BRANCH   4  31
+HETATM   31  O4  GAL C   1       8.239  67.018   6.783  0.50 28.56    -0.327 OA
+BRANCH  31  32
+HETATM   32  C1  NGA C   2       7.367  65.971   7.227  0.50 27.07     0.262 C 
+HETATM   33  C2  NGA C   2       5.940  66.529   7.382  0.50 26.50     0.192 C 
+HETATM   34  C3  NGA C   2       4.975  65.413   7.756  0.50 25.00     0.178 C 
+HETATM   35  C4  NGA C   2       5.078  64.281   6.720  0.50 27.34     0.211 C 
+HETATM   36  C5  NGA C   2       6.535  63.844   6.651  0.50 25.92     0.184 C 
+HETATM   37  O4  NGA C   2       4.663  64.819   5.478  0.50 27.11    -0.218 OA
+HETATM   38  O5  NGA C   2       7.337  64.945   6.219  0.50 26.89    -0.327 OA
+BRANCH  33  39
+HETATM   39  N2  NGA C   2       5.997  67.584   8.356  0.50 29.00    -0.232 NA
+HETATM   40  C7  NGA C   2       5.456  68.796   8.219  0.50 29.40     0.252 C 
+HETATM   41  C8  NGA C   2       5.772  69.702   9.428  0.50 27.66     0.100 C 
+HETATM   42  O7  NGA C   2       4.827  69.030   7.165  0.50 31.71    -0.271 OA
+ENDBRANCH  33  39
+BRANCH  34  43
+HETATM   43  O3  NGA C   2       3.627  65.910   7.693  0.50 23.22    -0.327 OA
+BRANCH  43  44
+HETATM   44  C1  GAL C   3       2.851  65.510   8.822  0.50 18.08     0.270 C 
+HETATM   45  C2  GAL C   3       1.485  66.173   8.887  0.50 14.48     0.241 C 
+HETATM   46  O2  GAL C   3       1.629  67.575   8.802  0.50 18.21    -0.215 OA
+HETATM   47  C3  GAL C   3       0.699  65.727  10.103  0.50 13.31     0.220 C 
+HETATM   48  C4  GAL C   3       0.757  64.208  10.252  0.50 13.24     0.215 C 
+HETATM   49  O3  GAL C   3      -0.658  66.175  10.114  0.50 14.16    -0.218 OA
+HETATM   50  C5  GAL C   3       2.174  63.651  10.094  0.50 14.42     0.184 C 
+HETATM   51  O4  GAL C   3      -0.044  63.586   9.276  0.50 12.87    -0.218 OA
+HETATM   52  O5  GAL C   3       2.684  64.082   8.824  0.50 15.88    -0.326 OA
+BRANCH  50  53
+HETATM   53  C6  GAL C   3       2.135  62.128  10.029  0.50 14.56     0.215 C 
+HETATM   54  O6  GAL C   3       3.405  61.548  10.057  0.50 15.78    -0.218 OA
+ENDBRANCH  50  53
+ENDBRANCH  43  44
+ENDBRANCH  34  43
+BRANCH  36  55
+HETATM   55  C6  NGA C   2       6.710  62.634   5.765  0.50 26.88     0.215 C 
+HETATM   56  O6  NGA C   2       5.941  61.560   6.278  0.50 27.96    -0.218 OA
+ENDBRANCH  36  55
+ENDBRANCH  31  32
+ENDBRANCH   4  31
+TORSDOF 15

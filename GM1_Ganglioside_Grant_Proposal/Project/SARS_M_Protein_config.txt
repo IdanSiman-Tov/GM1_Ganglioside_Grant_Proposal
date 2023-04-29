@@ -1,0 +1,14 @@
+receptor = SARS_M_Protein.pdbqt
+ligand = J_3chb.pdbqt
+
+center_x = 64.072 
+center_y = 76.520 
+center_z = 71.284
+
+size_x = 40 
+size_y = 36 
+size_z = 44
+
+energy_range = 4
+
+exhaustiveness = 8

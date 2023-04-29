@@ -1,0 +1,4 @@
+Sars_Cov_2_M_Protein
+spacing    0.742
+npts       78 52 40
+center    55.347 76.984 73.766

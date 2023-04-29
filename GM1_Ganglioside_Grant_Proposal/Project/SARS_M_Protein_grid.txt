@@ -1,0 +1,4 @@
+SARS_M_Protein
+spacing    0.525
+npts       40 36 44
+center    64.072 76.520 71.284

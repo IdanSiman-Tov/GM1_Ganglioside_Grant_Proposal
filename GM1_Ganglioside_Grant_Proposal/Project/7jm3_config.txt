@@ -1,0 +1,14 @@
+receptor = 7jm3.pdbqt
+ligand = J_3chb.pdbqt
+
+center_x = 270.090 
+center_y = 263.837 
+center_z = 201.160
+
+size_x = 40 
+size_y = 50 
+size_z = 40
+
+energy_range = 4
+
+exhaustiveness = 8
